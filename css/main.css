@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.header {
+  background: #131415;
+  margin-bottom: 42px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1060px;
+}
+
+.header__container {
+  position: relative;
+  height: 77px;
+}
+
+
+.footer__container {
+  position: relative;
+  height: 77px;
+}
+
+.footer {
+  background: #131415;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.contacts {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.contacts__phone {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: right;
+}
+
+.contacts__hours {
+  font-size: 14px;
+  color: #f89513;
+  font-weight: 700;
+  opacity: 0.7;
+  text-align: right;
+}
+
+.nav__item {
+  display: inline;
+  margin-right: 4px;
+  padding: 2px;
+}
+.nav__link:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 18px;
+  margin-right: 18px;
+}
+
+.nav__link {
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 2.4px;
+}
+
+
+.nav__link:hover {
+  color: black;
+}
+
+.nav__item--active .nav__link {
+  color: black
+}
+
+.nav__link--icon--main:before {
+  background-image: url('/img/nav_item/main_icon.png');
+}
+
+.nav__link--icon--feed:before {
+  background-image: url('/img/nav_item/feed_icon.png');
+}
+
+.nav__link--icon--service:before {
+  background-image: url('/img/nav_item/service_icon.png');
+}
+
+.nav__link--icon--main:hover:before {
+  background-image: url('/img/nav_item/main_icon-hover.png');
+}
+
+.nav__link--icon--feed:hover:before {
+  background-image: url('/img/nav_item/feed_icon-hover.png');
+}
+
+.nav__link--icon--service:hover:before {
+  background-image: url('/img/nav_item/service_icon-hover.png');
+}
+
+.nav__item--active .nav__link--icon--main:before {
+  background-image: url('/img/nav_item/main_icon-hover.png');
+}
+
+.nav__item--active .nav__link--icon--feed:before {
+  background-image: url('/img/nav_item/feed_icon-hover.png');
+}
+
+.nav__item--active .nav__link--icon--service:before {
+  background-image: url('/img/nav_item/service_icon-hover.png');
+}

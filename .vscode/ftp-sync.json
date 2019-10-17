@@ -1,0 +1,27 @@
+{
+    "remotePath": "./site1/public_html",
+    "host": "vh220.timeweb.ru",
+    "username": "usmanov184",
+    "password": "i24Q8322UgW6",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}
