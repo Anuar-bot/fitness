@@ -2,17 +2,31 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Fitness</title>
-  <link rel="stylesheet" href="./css/main.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=2000, initial-scale=1.0">
+
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <link rel="stylesheet" href="./css/layout/fonts.css">
+  <link rel="stylesheet" href="./css/layout/base.css">
+  <link rel="stylesheet" href="./css/layout/normalize.css">
+  <link rel="stylesheet" href="./css/blocks/header">
+  <link rel="stylesheet" href="./css/blocks/logo.css">
+  <link rel="stylesheet" href="./css/blocks/contacts.css">
+  <link rel="stylesheet" href="./css/blocks/contacts.css">
+  <link rel="stylesheet" href="./css/blocks/content.css">
+  <link rel="stylesheet" href="./css/blocks/nav.css">
+  <link rel="stylesheet" href="./css/blocks/news.css">
+  <link rel="stylesheet" href="./css/blocks/properties.css">
 </head>
+
 <body>
   <div class="wrapper">
     <header class="header">
       <div class="container header__container">
-        <a href="/" class="heder__logo">
+        <a href="/" class="header__logo">
           <img src="/img/logo/logo.png" alt="Логотип Афродита" class="logo__pic">
         </a>
         <nav class="nav">
@@ -35,7 +49,7 @@
       </div>
     </header>
     <div class="page-content">
-      <div class="container">
+      <div class="container container__page-content">
         <div class="banner banner__container">
           <div class="nike banner__container--nike">
             <img src="/img/logo/nike.png" alt="Фото Just do it" class="banner__img">
@@ -84,42 +98,48 @@
       </div>
     </div>
     <div class="news">
-      <div class="news__title">
-          <h3 class="news__title-text">последние новости</h3>
-      </div>
-      <ul class="news__list">
-          <li class="news__img">
-          <img class="news__avatar" src="../../" alt="аватар">
-          <div class="news__description">
-            <div class="news__data">12.10.2016</div>
-             <h4 class="news__title">Похудение с помощью бодибилдинга!</h4>
-             <p class="news__text">Вдыхание одного литра кислорода эквивалентно «сжиганию» 5 калорий, однако в минуту при самом высоком темпе движений атлет способен вдохнуть не более 3-4 литров кислорода. Это крайне важно для каждого начинающего атлета.
-             </p>
-          </div>
-          </li>
-          <li class="news__img">
-          <img class="news__avatar" src="../../" alt="аватар">
-          <div class="news__description">
-            <div class="news__data">01.02.2016</div>
-            <h4 class="news__title">Заражай друзей, получай призы!</h4>
-            <p class="news__text">Дополнительно для Вас: пользование сауной и предоставление средств личной гигиены, пользование баром, таблица замеров, дружеская атмосфера и постоянная поддержка. Мы запотимся о вашем комфорте и предлагаем испытать это уже сегодня!
-            </p>
-          </div>
-          </li>
-          <li class="news__img">
-          <img class="news__avatar" src="../../" alt="аватар">
-          <div class="news__description">
-              <div class="news__data">22.12.2015</div>
-              <h4 class="news__title">Фрилансер? Выпрями спину!</h4>
-              <p class="news__text">Создайте рабочее место под себя. Вот этот инструмент поможет определить, что подходит именно вам и вашему организму. Используйте специальную подставку для ноутбука, если вы проводите за ним больше 2 часов. Настройте высоту и яркость монитора! 
-              </p>
-          </div>
-          </li>
-      </ul>
-      <div class="topnews">
-        <img class="topnews__avatar" src="../../" alt="аватар">
-        <div class="topnews__title">
-          <h3 class="topnews__title-text">топ новостей за сентябрь</h3>
+      <div class="container container__news">
+        <div class="news__title container__news__title">
+              <h3 class="news__title-text">последние новости</h3>
+        </div>
+        <ul class="news__list">
+              <li class="news__img">
+              <img class="news__avatar" src="/img/Properties/Layer_1.png" alt="аватар">
+              <div class="news__description">
+                <div class="news__data">12.10.2016</div>
+                <h4 class="news__title">Похудение с помощью бодибилдинга!</h4>
+                <p class="news__text">Вдыхание одного литра кислорода эквивалентно «сжиганию» 5 калорий, однако в минуту при самом высоком темпе движений атлет способен вдохнуть не более 3-4 литров кислорода. Это крайне важно для каждого начинающего атлета.
+                </p>
+              </div>
+              </li>
+              <li class="news__img">
+              <img class="news__avatar" src="/img/Properties/Layer_2.png" alt="аватар">
+              <div class="news__description">
+                <div class="news__data">01.02.2016</div>
+                <h4 class="news__title">Заражай друзей, получай призы!</h4>
+                <p class="news__text">Дополнительно для Вас: пользование сауной и предоставление средств личной гигиены, пользование баром, таблица замеров, дружеская атмосфера и постоянная поддержка. Мы запотимся о вашем комфорте и предлагаем испытать это уже сегодня!
+                </p>
+              </div>
+              </li>
+              <li class="news__img">
+              <img class="news__avatar" src="/img/Properties/Layer_3.png" alt="аватар">
+              <div class="news__description">
+                  <div class="news__data">22.12.2015</div>
+                  <h4 class="news__title">Фрилансер? Выпрями спину!</h4>
+                  <p class="news__text">Создайте рабочее место под себя. Вот этот инструмент поможет определить, что подходит именно вам и вашему организму. Используйте специальную подставку для ноутбука, если вы проводите за ним больше 2 часов. Настройте высоту и яркость монитора! 
+                  </p>
+              </div>
+              </li>
+        </ul>
+        <div class="topnews">
+            <div class="container container__topnews">
+              <div class="topnews__title">
+                <h3 class="topnews__title-text">топ новостей за сентябрь</h3>
+              </div>
+              <img class="topnews__avatar1" src="/img/Properties/news1.png" alt="аватар1">
+              <img class="topnews__avatar2" src="/img/Properties/news2.png" alt="аватар2">
+              <img class="topnews__avatar3" src="/img/Properties/news3.png" alt="аватар3">
+            </div>
         </div>
       </div>
     </div>
@@ -155,53 +175,59 @@
     </div>
     <footer class="footer">
       <div class="container footer__container">
-        <div class="footer__text">
-        <span class="footer__text-school">Сделано с любовью и старанием
-            на курсе «HTML + CSS» в LoftSchool.
-            Автор работы: Усманов Ануар
-        </span>
-        <a href="//loftschool.com" class="">
-          LoftSchool
-        </a>
-        </div>
-        <div class="footer__logo">
-          <a href="" class="logo">
-            <img src="../../" alt="Логотип Афродита" class="logo__pic">
+          <div class="footer__text">
+          <span class="footer__text-school">Сделано с любовью и старанием
+              на курсе «HTML + CSS» в LoftSchool.
+              Автор работы: Усманов Ануар
+          </span>
+          <a href="//loftschool.com" class="">
+            LoftSchool
           </a>
-        </div>
-        <div class="footer__sn">
-            <h4 class="footer__title">Наши социальные сети</h4>
-            <ul class="footer__sn-list">
-                <li class="footer__sn-sublist">
-                  <a href="http://vk.com" class="footer__link-vk">
-                    <img src="../../" alt="vk" class="logo__vk"> 
-                  </a>
-                </li>
-                <li class="footer__sn-sublist">
-                  <a href="http://facebook.com" class="footer__link-fs">
-                    <img src="../../" alt="fb" class="logo__fb">
-                  </a>  
-                </li>           
-                <li class="footer__sn-sublist">
-                  <a href="http://google.com" class="footer__linf-google">
-                    <img src="../../" alt="google" class="logo__google">
-                  </a>             
-                </li>              
-                <li class="footer__sn-sublist">
-                  <a href="https://twitter.com" class="footer__link-tw">
-                    <img src="../../" alt="tw" class="logo__tw">
-                  </a>
-                </li>
-                <li class="footer__sn-sublist">
-                  <a href="mailto:test@usmanov.ru?subject=Вопрос по Работе" class="footer__link-mail">
-                    <img src="../../" alt="mail" class="logo__mail">
-                  </a>
-                </li>
-            </ul>
-        
-          
-        </div>
+          </div>
+          <div class="footer__logo">
+            <a href="" class="logo">
+              <img src="/img/logo/logo.png" alt="Логотип Афродита" class="logo__pic">
+            </a>
+          </div>
+          <div class="footer__sn">
+              <div class="container container__footer-sn">
+                <h4 class="footer__title">Наши социальные сети</h4>
+                <ul class="footer__sn-list">
+                    <li class="footer__sn-sublist">
+                      <a href="http://vk.com" class="footer__link-vk">
+                        <img src="/img/sn/vk.png" alt="vk" class="logo__vk"> 
+                      </a>
+                    </li>
+                    <li class="footer__sn-sublist">
+                      <a href="http://facebook.com" class="footer__link-fs">
+                        <img src="/img/sn/fb.png" alt="fb" class="logo__fb">
+                      </a>  
+                    </li>           
+                    <li class="footer__sn-sublist">
+                      <a href="http://google.com" class="footer__linf-google">
+                        <img src="/img/sn/g+.png" alt="google" class="logo__google">
+                      </a>             
+                    </li>              
+                    <li class="footer__sn-sublist">
+                      <a href="https://twitter.com" class="footer__link-tw">
+                        <img src="/img/sn/tw.png" alt="tw" class="logo__tw">
+                      </a>
+                    </li>
+                    <li class="footer__sn-sublist">
+                      <a href="mailto:test@usmanov.ru?subject=Вопрос по Работе" class="footer__link-mail">
+                        <img src="/img/sn/mail.png" alt="mail" class="logo__mail">
+                      </a>
+                    </li>
+                </ul>
+            </div>
+          </div>
       </div>
     </footer>
+  <script>
+    (function(w,d,u){
+      var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+      var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+    })(window,document,'https://cdn.bitrix24.com/b11335241/crm/site_button/loader_2_oa6evx.js');
+  </script>
 </body>
 </html>

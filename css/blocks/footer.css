@@ -1,0 +1,36 @@
+/*footer*/
+
+.footer__container {
+  position: relative;
+  height: 77px;
+}
+
+.footer {
+  background: #131415;
+  position: relative;
+  height: 77px;
+}
+
+/* 
+.footer__text-school {
+  color: #ffffff;
+} */
+
+/* .footer__sn-list {
+  display: flex;
+  align-items: flex-end;
+} */
+
+.container__footer-sn {
+  display: flex;
+}
+
+.footer__sn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+.footer__sn-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;

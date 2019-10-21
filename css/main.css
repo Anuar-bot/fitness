@@ -1,188 +1,22 @@
-body {
-  margin: 0px;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Roboto', sans-serif;
-  font: 15px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-ul li {
-  list-style: none;
-}
-
-.header {
-  background: #131415;
-  margin-bottom: 42px;
-}
-
-.container {
-  margin: 0 auto;
-  width: 1060px;
-}
-
-.header__container {
-  position: relative;
-  height: 77px;
-}
 
 
-.footer__container {
-  position: relative;
-  height: 77px;
-}
-
-.footer {
-  background: #131415;
-}
-
-.logo__pic {
-  margin-top: 30px;
-  text-align: center;
-}
-
-.contacts {
-  position: absolute;
-  right: 0;
-  top: 10px;
-}
-
-.contacts__phone {
-  color: #ffffff;
-  font-size: 21px;
-  font-weight: 700;
-  text-decoration: none;
-  text-align: right;
-}
-
-.contacts__hours {
-  font-size: 14px;
-  color: #f89513;
-  font-weight: 700;
-  opacity: 0.7;
-  text-align: right;
-  text-decoration: underline;
-}
-
-.nav {
-  display: inline-block;
-  margin: 0 auto;
-  width: 400px;
-  height: 70px;
-  top: 50%;
-  text-transform: uppercase;
-  font-size: 50px;
-  text-decoration: none;
-}
 
 
-.nav__item {
-  display: inline-block;
-  position: static;
-  vertical-align: top;
-  margin: 0 10px;
-}
-
-.nav__link:before {
-  content: '';
-  display: inline-block;
-  width: 20px;
-  height: 18px;
-  margin-right: 18px;
-}
-
-.nav__link {
-  font-size: 12px;
-  font-weight: bold;
-  color: #ffffff;
-  letter-spacing: 2.4px;
-}
 
 
-.nav__link:hover {
-  color: black;
-}
-
-.nav__item--active .nav__link {
-  color: black
-}
-
-.nav__link--icon--main:before {
-  background-image: url('/img/nav_item/main_icon.png');
-}
-
-.nav__link--icon--feed:before {
-  background-image: url('/img/nav_item/feed_icon.png');
-}
-
-.nav__link--icon--service:before {
-  background-image: url('/img/nav_item/service_icon.png');
-}
-
-.nav__link--icon--main:hover:before {
-  background-image: url('/img/nav_item/main_icon-hover.png');
-}
-
-.nav__link--icon--feed:hover:before {
-  background-image: url('/img/nav_item/feed_icon-hover.png');
-}
-
-.nav__link--icon--service:hover:before {
-  background-image: url('/img/nav_item/service_icon-hover.png');
-}
-
-.nav__item--active .nav__link--icon--main:before {
-  background-image: url('/img/nav_item/main_icon-hover.png');
-}
-
-.nav__item--active .nav__link--icon--feed:before {
-  background-image: url('/img/nav_item/feed_icon-hover.png');
-}
-
-.nav__item--active .nav__link--icon--service:before {
-  background-image: url('/img/nav_item/service_icon-hover.png');
-}
-
-.banner__container {
-  color:white;
-  width: 1060px;
-  height: 625px;
-}
-.banner__container--nike {
-  margin-top: 50px;
-  text-align: center
-}
 
 
-/* Properties*/
 
-.properties {
-  background: black;
-}
-.properties__title {
-  text-align: center;
-  color: #ffffff;
-  padding: 66px;
-  /* width: 390px;
-  height: 35px; */
-  font-family: "Open Sans";
-  font-size: 49px;
-  font-weight: 700;
-  line-height: 38px;
-  text-transform: uppercase;
-  letter-spacing: 1.47px;
-}
 
-.properties__list {
-  display: flex;
-  justify-content: space-around;
-  color: #ffffff;
-  
-}
+
+
+
+
+
+
+
+
+
+
+
+

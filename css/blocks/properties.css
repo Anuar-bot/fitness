@@ -1,0 +1,23 @@
+/* Properties*/
+
+.properties {
+  background: black;
+}
+.properties__title {
+  text-align: center;
+  color: #ffffff;
+  padding: 66px;
+  font-family: "Open Sans";
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 38px;
+  text-transform: uppercase;
+  letter-spacing: 1.47px;
+}
+
+.properties__list {
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+  
+}

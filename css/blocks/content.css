@@ -1,0 +1,10 @@
+
+.banner__container {
+  color:white;
+  width: 1060px;
+  height: 625px;
+}
+.banner__container--nike {
+  margin-top: 50px;
+  text-align: center
+}
